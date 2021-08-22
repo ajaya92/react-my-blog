@@ -1,8 +1,8 @@
 import React from 'react';
 
-const AboutPage = () => (
-<>
-<h1> Hello, welcome to my blog!</h1>
+const AboutPage = () => {
+    return (<>
+<h1> About me</h1>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis eu quam in dictum. Fusce rutrum turpis quis diam commodo tincidunt. Morbi euismod quam est, eu elementum ex mollis in. Aliquam auctor, ex ut consectetur pellentesque, quam est sagittis urna, id dignissim felis metus quis tellus. Nunc at libero accumsan, convallis lorem sed, rhoncus neque. Pellentesque sed placerat ante, quis consectetur odio. Nunc mollis volutpat turpis, id cursus velit rutrum id. Mauris ut risus neque. Vestibulum varius ex non mi mattis, a vestibulum sem semper. Suspendisse a lacinia justo, vestibulum posuere urna. Mauris non lectus tincidunt, tempor est in, aliquet nunc. Duis sem lacus, maximus ac tortor vitae, semper iaculis ipsum. 
     </p>
@@ -15,8 +15,8 @@ const AboutPage = () => (
 
 
 </>
-
-
     )
+
+}
 
 export default AboutPage;
